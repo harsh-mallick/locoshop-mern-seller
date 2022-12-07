@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.28b7f9c1.css",
-    "main.js": "/static/js/main.90dae626.js",
+    "main.css": "/static/css/main.8f5a5a1b.css",
+    "main.js": "/static/js/main.e2a54188.js",
     "static/js/787.618e7926.chunk.js": "/static/js/787.618e7926.chunk.js",
     "static/media/Icon-loading.gif": "/static/media/Icon-loading.8c52ff0a76a3cc0ce462.gif",
     "static/media/Login Image.png": "/static/media/Login Image.a5f9290854b7fe57d1f1.png",
@@ -13,12 +13,12 @@
     "static/media/Locoshop bg.jpg": "/static/media/Locoshop bg.08b563a60d487454b863.jpg",
     "static/media/user.png": "/static/media/user.72c53c386bb343cfaaef.png",
     "index.html": "/index.html",
-    "main.28b7f9c1.css.map": "/static/css/main.28b7f9c1.css.map",
-    "main.90dae626.js.map": "/static/js/main.90dae626.js.map",
+    "main.8f5a5a1b.css.map": "/static/css/main.8f5a5a1b.css.map",
+    "main.e2a54188.js.map": "/static/js/main.e2a54188.js.map",
     "787.618e7926.chunk.js.map": "/static/js/787.618e7926.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28b7f9c1.css",
-    "static/js/main.90dae626.js"
+    "static/css/main.8f5a5a1b.css",
+    "static/js/main.e2a54188.js"
   ]
 }

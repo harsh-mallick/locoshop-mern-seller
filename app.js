@@ -16,18 +16,14 @@ app.use(require("./router/auth"));
 app.use(cors());
 
 
-if(process.env.NODE_ENV === "production"){
-  app.use(express.static("client/build"));
-}
-
-app.use(express.static(path.join(__dirname, "../client/build")))
+app.use(express.static(path.join(__dirname, "./client/build")))
 
 app.get("*", function(req, res){
-  res.sendFile(path.join(__dirname, "../client/build/index.html"))
+  res.sendFile(path.join(__dirname, "./client/build/index.html"))
 })
 
 // make a localhost with port
-dotenv.config({path: "../config.env"});
+dotenv.config({path: "./config.env"});
 
 const server = app.listen(process.env.PORT || 8000, () => {
     console.log(`Express is working on port ${server.address().port}`);
