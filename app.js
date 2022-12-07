@@ -8,7 +8,6 @@ const app = express();
 const path = require('path')
 require('./db/conn')
 const cookieParser = require('cookie-parser')
-const path = require("path")
 
 app.use(express.json())
 app.use(cookieParser())
